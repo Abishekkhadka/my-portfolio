@@ -47,3 +47,13 @@ body {
 .fa-instagram {
     color: #E1306C;
 }
+
+/* Added hover effect for social media icons */
+#contact a:hover i {
+    transform: scale(1.2);
+}
+
+#contact a i {
+    transition: transform 0.3s ease-in-out;
+}
+
